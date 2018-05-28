@@ -22,6 +22,7 @@ import (
 func main() {
 	app := cli.NewApp()
 	app.Name = "Dns Test App"
+	app.Version = "1.0.0"
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:  "dns,d",
